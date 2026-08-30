@@ -43,3 +43,7 @@ grep
 tail
 less
 cat
+Examples
+grep "Failed password" /var/log/auth.log
+grep "Accepted" /var/log/auth.log
+tail -n 50 /var/log/auth.log
